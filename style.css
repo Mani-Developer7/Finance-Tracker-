@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f4f6f9;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.container {
+  background: #fff;
+  width: 380px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+.balance-card {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.summary div {
+  width: 48%;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.income {
+  background: #e6f9f0;
+  color: #2ecc71;
+}
+
+.expense {
+  background: #fdecea;
+  color: #e74c3c;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, select, button {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #667eea;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+li {
+  background: #f8f9fa;
+  padding: 10px;
+  border-left: 5px solid;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.income {
+  border-color: #2ecc71;
+}
+
+li.expense {
+  border-color: #e74c3c;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  color: red;
+  cursor: pointer;
+}
